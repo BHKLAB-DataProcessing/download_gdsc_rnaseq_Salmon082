@@ -1,3 +1,4 @@
+#download
 library(downloader)
 basePath <- "https://orcestradata.blob.core.windows.net/gdsc/GDSC/2019/RNA-seq"
 download(file.path(basePath, "Salmon_0.8.2.tar.gz"), destfile="/pfs/out/Salmon_0.8.2.tar.gz")
